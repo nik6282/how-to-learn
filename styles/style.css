@@ -218,7 +218,7 @@
 
 .table__heading {
   font-size: 24px;
-  font-style: bold;
+  font-weight: bold;
   line-height: 1.15;
 
   margin: 0;
@@ -257,7 +257,7 @@
   z-index: 1;
 
   font-size: 120px;
-  font-style: bold;
+  font-weight: bold;
   line-height: 1.15;
 }
 
@@ -355,7 +355,7 @@
 .footer__author {
   padding: 18px 0;
   position: absolute;
-  left 0;
+  left: 0;
   bottom: 0;
   margin: 0;
 }
@@ -378,7 +378,7 @@
 
 .footer__column-heading {
   font-size: 18px;
-  font-style: bold;
+  font-weight: bold;
   line-height: 30px;
   margin: 0;
 }
