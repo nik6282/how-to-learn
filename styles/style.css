@@ -17,11 +17,13 @@
   белый текст: white
 */
 
+/* uncomment class below to use for bug-fixing 
 .border {
   border-width: 2px;
   border-style: solid;
   border-color: brown;
 }
+*/
 
 .header {
   height: 100vh;
@@ -437,7 +439,7 @@
 }
 
 .footer__column-heading {
-  margin: 0;
+  margin: 0 0 20px;
   color: white;
 
   font-size: 18px;
@@ -446,21 +448,32 @@
   line-height: 30px;
 }
 
-.footer__column-links {
-  margin: 20px 0 10px;
+.footer__column-links  {
+  margin: 0 0 10px;
   padding: 0;
+}
 
-  list-style: none;
+.footer__column-links ul {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
 }
 
 .footer__column-link {
-  color: white;
-
+  display: block;
   margin: 0;
+
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
   line-height: 30px;
+}
+
+.footer__column-link a {
+  color: white;
+
+  position: relative;
   text-decoration: none;
 }
 
