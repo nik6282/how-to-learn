@@ -13,7 +13,8 @@
   серый фон: #1f1f1f
   серый фон: №f2f2f2
   синий ссылки: #2f80ed
-  черный тект: #000000
+  черный текст: #000000
+  белый текст: white
 */
 
 .border {
@@ -134,10 +135,7 @@
   display: flex;
   justify-content: space-between;
   width: 80%;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-bottom: 50px;
-  margin-right: auto;
+  margin: 100px auto 0;
 }
 
 .two-columns__brief {
@@ -180,7 +178,7 @@
 }
 
 .digits {
-  margin: 50px 0;
+  margin: 100px 0;
 }
 
 .section-title {
@@ -298,7 +296,6 @@
 }
 
 .feynman__link:hover{
-  /* margin: -2; */
   font-size: 38px;
 }
 
@@ -319,7 +316,6 @@
   flex-wrap: wrap;
   flex-direction: column;
   background-color: #1f1f1f;
-  /* padding: 90px 0; */
   overflow: hidden;
 }
 
@@ -339,7 +335,6 @@
   position: absolute;
   right: -210px;
   top: 0;
-
 }
 
 .section-title {
@@ -385,9 +380,6 @@
   background-color: #1f1f1f;
 
   display: flex;
-  /* position: relative; */
-  /* justify-content: center; */
-
 }
 
 .footer__columns {
@@ -430,15 +422,28 @@
 
 .footer__author {
   margin: 18px 0;
-  color: #f2f2f2;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  text-decoration: none;
   flex-grow: 0;
   width: fit-content;
   position: relative;
   bottom: 0;
+
+  color: white;
+
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.footer__column-heading {
+  margin: 0;
+  color: white;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 30px;
 }
 
 .footer__column-links {
@@ -448,20 +453,13 @@
   list-style: none;
 }
 
-.footer__column-heading {
-  margin: 0;
-  color: white;
-
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 30px;
-}
-
 .footer__column-link {
   color: white;
 
   margin: 0;
   font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
   line-height: 30px;
   text-decoration: none;
 }
