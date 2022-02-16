@@ -92,6 +92,10 @@
   line-height: 25px;
 }
 
+.header__link:hover{
+  font-size: 20px;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -269,9 +273,6 @@
 
 .feynman__subtitle {
   position: relative;
-  /* justify-self: center; */
-  /* align-self: center; */
-  /* text-align: center; */
 
   margin: 70px auto 0;
 
@@ -295,6 +296,12 @@
   text-decoration: none;
   z-index: 1;
 }
+
+.feynman__link:hover{
+  /* margin: -2; */
+  font-size: 38px;
+}
+
 
 .feynman__background {
   position: absolute;
