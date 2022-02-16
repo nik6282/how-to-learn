@@ -339,22 +339,16 @@
   top: 0;
 }
 
-.section-title {
+.section-title_theme_dark {
   margin: 90px auto 0;
   z-index: 1;
-}
 
-.section-title_theme_dark {
   color: #f2f2f2;
-}
-
-.section-subtitle {
-  width: 60%;
-  margin: 20px auto 0;
 }
 
 .section-subtitle_theme_dark {
   color: #f2f2f2;
+  margin: 20px auto 0;
 }
 
 .table_theme_dark {
