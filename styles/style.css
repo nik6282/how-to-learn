@@ -444,19 +444,10 @@
   margin: 0 10px 0 0;
 }
 
-.nav {
-  /* class declared for BEM syntax */
-  
-}
-
-.nav__menu {
+.footer__column-list {
   display: flex;
   flex-direction: column;
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.nav__menu-item {
-  /* class declared for BEM syntax */
 }
