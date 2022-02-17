@@ -61,8 +61,8 @@
   /* расположение */
   display: flex;
   position: relative;
-  margin: auto 0;
-  left: 64px;
+  align-self: center;
+  margin: 0 0 0 64px; */
   z-index: 2;
 
   /* стили текста */
@@ -130,7 +130,6 @@
 
 .content {
   background-color: #fff;
-  display: block;
 }
 
 .description {
@@ -185,7 +184,8 @@
 }
 
 .digits {
-  margin: 100px 0;
+  margin: 0;
+  padding: 100px 0;
 }
 
 .section-title {
@@ -257,7 +257,7 @@
   flex-direction: column;
   background-color: #f2f2f2;
 
-  height: 890px;
+  min-height: 890px;
   margin: 0;
   align-items: center;
 }
@@ -425,7 +425,7 @@
 
 .footer__author {
   margin: 18px 0;
-  width: fit-content;
+  /* width: fit-content; */
 
   color: white;
 
