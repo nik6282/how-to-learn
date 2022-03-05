@@ -1,0 +1,17 @@
+.header__title {
+  /* геометрия */
+  min-width: 730px;
+
+  /* расположение */
+  margin-left: 64px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  z-index: 2;
+
+  /* стили текста */
+  color: #000;
+  font-size: 102px;
+  font-weight: bold;
+  line-height: 96px;
+}

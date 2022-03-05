@@ -1,0 +1,8 @@
+.logo_posion_header {
+  display: flex;
+  position: absolute;
+  top: 64px;
+  left: 64px;
+  margin: 0;
+  z-index: 1;
+}
