@@ -1,11 +1,10 @@
 .footer__column-link {
-  color: white;
   text-decoration: none;
+  line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
-  line-height: 30px;
-  
+  color: white;
   transition-property: opacity;
   transition-duration: .4s;
   transition-timing-function: linear;

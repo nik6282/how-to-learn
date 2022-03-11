@@ -1,4 +1,6 @@
 .resources {
   margin: 0 auto;
-  padding: 100px 0 217px;
+  padding-top: 100px;
+  padding-bottom: 217px;
+  box-sizing: border-box;
 }

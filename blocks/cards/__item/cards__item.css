@@ -1,7 +1,6 @@
 .cards__item {
-  padding-top: 60px;
-  width: calc((920px - 200px)/ 3);
   margin-right: 100px;
+  width: calc((920px - 200px)/ 3);
   justify-content: center;
   justify-items: center;
 }
